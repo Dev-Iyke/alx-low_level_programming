@@ -21,6 +21,6 @@ int main(void)
 		num1 = num2;
 		num2 = next;
 	}
-	printf("%d\n", num);
+	printf("%d\n", sum);
 	return (0);
 }
