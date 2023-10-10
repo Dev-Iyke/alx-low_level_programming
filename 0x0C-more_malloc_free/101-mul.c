@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * malloc_checked - function that allocates memory
- * @b: function parameter
- * Return: void
+ * is_digit - function that checks for a digit
+ * @s: function parameter
+ * Return: an integer
  */
 
 int is_digit(char *s)
