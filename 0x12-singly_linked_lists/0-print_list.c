@@ -1,18 +1,15 @@
 #include "lists.h"
-#include <stdlib.h>
-#include <string.h>
 
 /**
  * print_list - print a list
- * @h: string
+ * @h: a list
  * Return: the number of nodes
  */
 
 size_t print_list(const list_t *h)
 {
-	unsigned int node;
+	size_t node = 0;
 
-	node = 0;
 	while (h != NULL)
 	{
 		if (h->str == NULL)
