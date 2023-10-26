@@ -15,14 +15,13 @@ void print_bin(unsigned long int n)
 	print_bin(n >> 1);
 	if ((n & 1) == 1)
 		_putchar('1');
-		
 	if ((n & 1) == 0)
 		_putchar('0');
 }
 
 
 /**
- * print_binary - function that converts and prints the binary equivalent of an integer
+ * print_binary - function that converts and prints a binary equivalent
  * @n: integer to convert
  * Return: void
  */

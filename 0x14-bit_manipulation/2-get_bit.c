@@ -2,6 +2,7 @@
 
 /**
  * get_bit - function returns the value of a bit at a given index
+ * @n: the bit
  * @index: index of number
  * Return: an interger
  */
