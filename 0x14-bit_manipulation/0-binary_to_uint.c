@@ -23,7 +23,7 @@ unsigned int binary_to_uint(const char *b)
 		return (b[0] - 48);
 	for (i = 0; b[i] != '\0'; i++)
 	{
-		if (b[i] != '\0' && b[i] != '1')
+		if (b[i] != '0' && b[i] != '1')
 			return (0);
 		for (k = len - 1; k > 0; k--)
 		p = p * base;
