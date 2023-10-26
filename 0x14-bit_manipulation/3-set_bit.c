@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * set_bit - function to set the value of a bit to 1
+ * set_bit - function to set the value of a bit to one
  * @n: bit
  * @index: index of bit
+ * Return: always 0 or 1
  */
 
 int set_bit(unsigned long int *n, unsigned int index)
